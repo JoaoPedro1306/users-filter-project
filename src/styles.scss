@@ -1,5 +1,4 @@
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "./styles/utils/text-align-center";
 
 *{
     margin: 0;
@@ -7,3 +6,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border: 0;
     box-sizing: border-box; /* Faz com que as bordas eo preenchimento sejam incluídos no tamanho total do elemento */
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
