@@ -9,7 +9,7 @@ export class PhonePipe implements PipeTransform {
     const INVALID_PHONE = !phone || phone.length < 10 || phone.length > 11;
     
     if(INVALID_PHONE){
-      return 'Telefone indisponível ou inválido!';
+      return 'Telefone indisponível ou inválido';
     }
 
     const CELLPHONE = phone.length === 11;
